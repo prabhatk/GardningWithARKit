@@ -13,28 +13,10 @@
 		93BAAD0D1F87BE56007883F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93BAAD0B1F87BE56007883F1 /* Main.storyboard */; };
 		93BAAD0F1F87BE56007883F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93BAAD0E1F87BE56007883F1 /* Assets.xcassets */; };
 		93BAAD121F87BE56007883F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93BAAD101F87BE56007883F1 /* LaunchScreen.storyboard */; };
-		93BAAD1D1F87BE56007883F1 /* GardningWithARKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BAAD1C1F87BE56007883F1 /* GardningWithARKitTests.swift */; };
-		93BAAD281F87BE56007883F1 /* GardningWithARKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BAAD271F87BE56007883F1 /* GardningWithARKitUITests.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		93BAAD191F87BE56007883F1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 93BAACFA1F87BE56007883F1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 93BAAD011F87BE56007883F1;
-			remoteInfo = GardningWithARKit;
-		};
-		93BAAD241F87BE56007883F1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 93BAACFA1F87BE56007883F1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 93BAAD011F87BE56007883F1;
-			remoteInfo = GardningWithARKit;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		935E47AC1F8DFAF10054E891 /* screenshot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = screenshot.jpg; sourceTree = "<group>"; };
 		93BAAD021F87BE56007883F1 /* GardningWithARKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GardningWithARKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93BAAD051F87BE56007883F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		93BAAD071F87BE56007883F1 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -43,30 +25,14 @@
 		93BAAD0E1F87BE56007883F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93BAAD111F87BE56007883F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		93BAAD131F87BE56007883F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93BAAD181F87BE56007883F1 /* GardningWithARKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GardningWithARKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93BAAD1C1F87BE56007883F1 /* GardningWithARKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardningWithARKitTests.swift; sourceTree = "<group>"; };
 		93BAAD1E1F87BE56007883F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93BAAD231F87BE56007883F1 /* GardningWithARKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GardningWithARKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93BAAD271F87BE56007883F1 /* GardningWithARKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardningWithARKitUITests.swift; sourceTree = "<group>"; };
 		93BAAD291F87BE56007883F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		93BAACFF1F87BE56007883F1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		93BAAD151F87BE56007883F1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		93BAAD201F87BE56007883F1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -90,8 +56,6 @@
 			isa = PBXGroup;
 			children = (
 				93BAAD021F87BE56007883F1 /* GardningWithARKit.app */,
-				93BAAD181F87BE56007883F1 /* GardningWithARKitTests.xctest */,
-				93BAAD231F87BE56007883F1 /* GardningWithARKitUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -104,6 +68,7 @@
 				93BAAD091F87BE56007883F1 /* ViewController.swift */,
 				93BAAD0B1F87BE56007883F1 /* Main.storyboard */,
 				93BAAD0E1F87BE56007883F1 /* Assets.xcassets */,
+				935E47AC1F8DFAF10054E891 /* screenshot.jpg */,
 				93BAAD101F87BE56007883F1 /* LaunchScreen.storyboard */,
 				93BAAD131F87BE56007883F1 /* Info.plist */,
 			);
@@ -148,42 +113,6 @@
 			productReference = 93BAAD021F87BE56007883F1 /* GardningWithARKit.app */;
 			productType = "com.apple.product-type.application";
 		};
-		93BAAD171F87BE56007883F1 /* GardningWithARKitTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 93BAAD2F1F87BE56007883F1 /* Build configuration list for PBXNativeTarget "GardningWithARKitTests" */;
-			buildPhases = (
-				93BAAD141F87BE56007883F1 /* Sources */,
-				93BAAD151F87BE56007883F1 /* Frameworks */,
-				93BAAD161F87BE56007883F1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				93BAAD1A1F87BE56007883F1 /* PBXTargetDependency */,
-			);
-			name = GardningWithARKitTests;
-			productName = GardningWithARKitTests;
-			productReference = 93BAAD181F87BE56007883F1 /* GardningWithARKitTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		93BAAD221F87BE56007883F1 /* GardningWithARKitUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 93BAAD321F87BE56007883F1 /* Build configuration list for PBXNativeTarget "GardningWithARKitUITests" */;
-			buildPhases = (
-				93BAAD1F1F87BE56007883F1 /* Sources */,
-				93BAAD201F87BE56007883F1 /* Frameworks */,
-				93BAAD211F87BE56007883F1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				93BAAD251F87BE56007883F1 /* PBXTargetDependency */,
-			);
-			name = GardningWithARKitUITests;
-			productName = GardningWithARKitUITests;
-			productReference = 93BAAD231F87BE56007883F1 /* GardningWithARKitUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,16 +126,6 @@
 					93BAAD011F87BE56007883F1 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
-					};
-					93BAAD171F87BE56007883F1 = {
-						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 93BAAD011F87BE56007883F1;
-					};
-					93BAAD221F87BE56007883F1 = {
-						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 93BAAD011F87BE56007883F1;
 					};
 				};
 			};
@@ -224,8 +143,6 @@
 			projectRoot = "";
 			targets = (
 				93BAAD011F87BE56007883F1 /* GardningWithARKit */,
-				93BAAD171F87BE56007883F1 /* GardningWithARKitTests */,
-				93BAAD221F87BE56007883F1 /* GardningWithARKitUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -242,20 +159,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		93BAAD161F87BE56007883F1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		93BAAD211F87BE56007883F1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -268,36 +171,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		93BAAD141F87BE56007883F1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				93BAAD1D1F87BE56007883F1 /* GardningWithARKitTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		93BAAD1F1F87BE56007883F1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				93BAAD281F87BE56007883F1 /* GardningWithARKitUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		93BAAD1A1F87BE56007883F1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 93BAAD011F87BE56007883F1 /* GardningWithARKit */;
-			targetProxy = 93BAAD191F87BE56007883F1 /* PBXContainerItemProxy */;
-		};
-		93BAAD251F87BE56007883F1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 93BAAD011F87BE56007883F1 /* GardningWithARKit */;
-			targetProxy = 93BAAD241F87BE56007883F1 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		93BAAD0B1F87BE56007883F1 /* Main.storyboard */ = {
@@ -431,10 +305,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B32ZER8L86;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = GardningWithARKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.infobeans.GardningWithARKit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xyz.GardningWithARKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -446,75 +320,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B32ZER8L86;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = GardningWithARKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.infobeans.GardningWithARKit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xyz.GardningWithARKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		93BAAD301F87BE56007883F1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = GardningWithARKitTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.infobeans.GardningWithARKitTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GardningWithARKit.app/GardningWithARKit";
-			};
-			name = Debug;
-		};
-		93BAAD311F87BE56007883F1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = GardningWithARKitTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.infobeans.GardningWithARKitTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GardningWithARKit.app/GardningWithARKit";
-			};
-			name = Release;
-		};
-		93BAAD331F87BE56007883F1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = GardningWithARKitUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.infobeans.GardningWithARKitUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = GardningWithARKit;
-			};
-			name = Debug;
-		};
-		93BAAD341F87BE56007883F1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = GardningWithARKitUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.infobeans.GardningWithARKitUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = GardningWithARKit;
 			};
 			name = Release;
 		};
@@ -535,24 +347,6 @@
 			buildConfigurations = (
 				93BAAD2D1F87BE56007883F1 /* Debug */,
 				93BAAD2E1F87BE56007883F1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		93BAAD2F1F87BE56007883F1 /* Build configuration list for PBXNativeTarget "GardningWithARKitTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				93BAAD301F87BE56007883F1 /* Debug */,
-				93BAAD311F87BE56007883F1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		93BAAD321F87BE56007883F1 /* Build configuration list for PBXNativeTarget "GardningWithARKitUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				93BAAD331F87BE56007883F1 /* Debug */,
-				93BAAD341F87BE56007883F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
