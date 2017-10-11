@@ -10,5 +10,8 @@ Code will give learnings on following points :
 
 ![optional Text](https://github.com/prabhatk/GardningWithARKit/blob/master/GardningWithARKit/screenshot.jpg)
 
+I am open for imporvements, as it is a basic tutorial.
+Please do let me know if you have any suggestions and improvement in code.
 
-
+Thanks,
+PrabhatK
